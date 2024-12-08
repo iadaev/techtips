@@ -19,7 +19,6 @@
 
 ``
     $ arc mount https://arc.yandex.ru/arc/trunk/projectname /home/user/path/to/repository
-
 ``
 
 `projectname` - название проекта в репозитории Яндекса; `/home/user/path/to/repository` - точка монтирования репозитория.
@@ -47,7 +46,7 @@
 
 `filenameX` - имя измененного или нового файла.
 
-7. Зафиксируйте изменения в ветке, указав краткое описание изменений:
+7. Зафиксируйте изменения в ветке и кратко опишите изменения:
 
 ``
     $ arc commit -m "Your message"
