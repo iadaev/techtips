@@ -17,9 +17,9 @@
 1. Запустите консольный клиент Arc.
 2. Примонтируйте репозиторий вашего проекта:
 
-``
+```bash
     $ arc mount https://arc.yandex.ru/arc/trunk/projectname /home/user/path/to/repository
-``
+```
 
 `projectname` - название проекта в репозитории Яндекса; `/home/user/path/to/repository` - точка монтирования репозитория.
 
